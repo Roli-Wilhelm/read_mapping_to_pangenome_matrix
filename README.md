@@ -1,10 +1,9 @@
 read_mapping_to_pangenome_matrix
 =================================
 
-A Python Script to Automate Mapping Short Reads to Draft Genomes - Then, by the grace of Computer Gods, Calculating the Number of Reads which Map to Each Annotated/Predicted Gene Based on the Format of the Pangenome matrix Output by the software package "Get_Homologues"
+A Python script to automate the mapping of short reads to draft genomes. The output is a gene x draft genome matrix providing the number of reads which map to each annotated gene based on the format of the pangenome matrix output by the software package "Get_Homologues."
 
 Dependencies:
-
 bowtie2
 samtools
 genomeCoverageBed
